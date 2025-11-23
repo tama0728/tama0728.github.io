@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dong-Yun Kim | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dong-Yun Kim</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Dong-Yun Kim</span></h1>
+                <p class="tagline">Undergraduate Student, Department of Computer Science</p>
+                <p class="sub-tagline">Sangmyung University</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I am a passionate Computer Science student at Sangmyung University, expected to graduate early in August 2025. 
+                            I have a strong academic record with a GPA of 4.35/4.5. My research interests include Super-resolution image reconstruction, 
+                            Computer Graphics, Computer Vision, and Simulation.
+                        </p>
+                        <div class="education">
+                            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                            <div class="edu-item">
+                                <h4>Sangmyung University</h4>
+                                <p class="date">Mar. 2022 – Aug. 2025 (Early Graduation)</p>
+                                <p>Department of Computer Science</p>
+                                <p><strong>GPA:</strong> 4.35 (4.44) / 4.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Research Student</h3>
+                            <span class="company">GPU Tech Lab, Sangmyung Univ.</span>
+                            <span class="date">Jun. 2023 – Present</span>
+                            <p>Advisor: Jae-Ho Nah</p>
+                            <ul>
+                                <li>Conducting research on Super-Resolution Image Ensemble Methods.</li>
+                                <li>Presented "Edge-Based Super-Resolution Image Blending Method" at KCGS 2024 (Oral Presentation, Best Undergraduate Presentation Award).</li>
+                                <li>Co-authored a paper on Sound Propagation acceleration structures (Submitted to IEEE Access).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Research Project Support</h3>
+                            <span class="company">TSCIENTIFIC</span>
+                            <span class="date">Sep. 2025 – Nov. 2025 (Expected)</span>
+                            <p>Research Project Support in Personal Information Protection.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Research Intern</h3>
+                            <span class="company">EXARION</span>
+                            <span class="date">Jul. 2024 – Aug. 2024</span>
+                            <ul>
+                                <li>Developed Unity demo applications for real-time sound-tracing.</li>
+                                <li>Gained experience with Unity and C#.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Research Assistant</h3>
+                            <span class="company">Sound-tracing Software Performance Analysis</span>
+                            <span class="date">Apr. 2024 – Nov. 2024</span>
+                            <p>Industry Partner: EXARION</p>
+                            <ul>
+                                <li>Developed BVH to MBVH conversion algorithms.</li>
+                                <li>Focused on C++ and Acceleration Structures.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <!-- MSR Viewer Project -->
+                    <div class="project-card featured">
+                        <div class="project-info">
+                            <h3>MSR Viewer</h3>
+                            <p class="project-desc">Interactive viewer for Super-Resolution Image Ensemble Method results. Compare HR, LR, Classical, and Proposed methods.</p>
+                            <div class="tags">
+                                <span>HTML/JS</span>
+                                <span>Research</span>
+                                <span>Visualization</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tama0728.github.io/MSR_viewer" class="btn small" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Golf Coach Application -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Golf Coach Application</h3>
+                            <p class="project-desc">AI-powered golf coaching application using computer vision and deep learning. Capstone Project.</p>
+                            <div class="tags">
+                                <span>Flutter</span>
+                                <span>Node.js</span>
+                                <span>OpenCV</span>
+                                <span>Flask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages & Tools</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">C <i class="fas fa-star"></i></span>
+                            <span class="skill-tag">Linux <i class="fas fa-star"></i></span>
+                            <span class="skill-tag">Python <i class="fas fa-star"></i></span>
+                            <span class="skill-tag">OpenCV <i class="fas fa-star"></i></span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Pytorch</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">NodeJS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <h2 class="section-title">Awards & Scholarships</h2>
+                <ul class="awards-list">
+                    <li><i class="fas fa-trophy"></i> <strong>Best Undergraduate Presentation Award</strong>, KCGS 2024 (Jul. 2024)</li>
+                    <li><i class="fas fa-award"></i> <strong>SW Scholarship (Top in Department)</strong>, Sangmyung Univ. (2023-2)</li>
+                    <li><i class="fas fa-award"></i> <strong>Gyedang Scholarship</strong>, Sangmyung Univ. (2025-1)</li>
+                    <li><i class="fas fa-certificate"></i> <strong>Academic A</strong>, Sangmyung Univ. (Multiple semesters)</li>
+                    <li><i class="fas fa-users"></i> <strong>Leadership (Student Executives)</strong>, Sangmyung Univ. (2024-2025)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p>Feel free to reach out to me via email or check out my GitHub.</p>
+                    <div class="contact-links">
+                        <a href="mailto:edw0728@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i> edw0728@gmail.com
+                        </a>
+                        <a href="https://github.com/tama0728" target="_blank" class="contact-item">
+                            <i class="fab fa-github"></i> github.com/tama0728
+                        </a>
+                        <span class="contact-item">
+                            <i class="fas fa-phone"></i> 010-8516-6153
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dong-Yun Kim. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
